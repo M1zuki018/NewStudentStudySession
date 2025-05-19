@@ -42,6 +42,9 @@ public class ScriptGenerator : EditorWindow
 string classTemplate = 
 $@"using UnityEngine;
 
+/// <summary>
+///     これはサンプルスクリプトの{i + 1}
+/// </summary>
 public class {classname} : MonoBehaviour
 {{
     [Header(""パラメータ"")]
