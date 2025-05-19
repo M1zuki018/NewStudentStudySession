@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class SampleScript_0 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private string _text = "text";
+  
+    private void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log(_text);
     }
 }
