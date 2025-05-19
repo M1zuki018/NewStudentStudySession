@@ -36,8 +36,7 @@ public class ScriptGenerator : EditorWindow
             string scriptPath = Path.Combine(folderPath, classname + ".cs");
             if (File.Exists(scriptPath))
             {
-                Debug.LogWarning("Script already exists: " + scriptPath);
-                return;
+                File.Delete(scriptPath);
             }
 string classTemplate = 
 $@"using UnityEngine;
