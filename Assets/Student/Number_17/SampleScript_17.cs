@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+///     これはサンプルスクリプトの17
+/// </summary>
 public class SampleScript_17 : MonoBehaviour
 {
     [Header("パラメータ")]
