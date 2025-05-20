@@ -258,9 +258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f0278571e2871458883bf2767d8ef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _text: text
-  _fontSize: 128
-  _color: {r: 1, g: 1, b: 1, a: 1}
+  _text: "\u7A7A\u8179"
+  _fontSize: 512
+  _color: {r: 1, g: 0.8, b: 0.06666667, a: 1}
   _anchor: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
