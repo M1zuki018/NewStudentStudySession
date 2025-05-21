@@ -34,5 +34,6 @@ public class SampleScript_27 : MonoBehaviour
 
             // テキストを描画
             GUI.Label(rect, _text, style);
+        //なにこれ
         }
 }

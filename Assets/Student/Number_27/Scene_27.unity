@@ -224,6 +224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1765991855}
   - component: {fileID: 1765991856}
+  - component: {fileID: 1765991857}
   m_Layer: 0
   m_Name: SampleScript
   m_TagString: Untagged
@@ -259,6 +260,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: "\u3084\u3063\u3068\u3067\u304D\u305F"
+  _fontSize: 128
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _anchor: 4
+--- !u!114 &1765991857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765991854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e272c69f5b7436f44bfbff4e436deab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: text
   _fontSize: 128
   _color: {r: 1, g: 1, b: 1, a: 1}
   _anchor: 4
